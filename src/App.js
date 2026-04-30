@@ -8,7 +8,6 @@ import Payal4 from './assets/Payal4.PNG';
 import Payal5 from './assets/Payal5.PNG';
 import Payal6 from './assets/Payal6.PNG';
 import Payal7 from './assets/Payal7.PNG';
-import Payal8 from './assets/Payal8.PNG';
 import Payal9 from './assets/Payal9.PNG';
 import Payal10 from './assets/Payal10.PNG';
 import Payal11 from './assets/Payal11.PNG';
@@ -17,9 +16,7 @@ import Payal14 from './assets/Payal14.PNG';
 import Payal16 from './assets/Payal16.PNG';
 import Payal17 from './assets/Payal17.PNG';
 import Payal18 from './assets/Payal18.png';
-import Payal20 from './assets/Payal20.png';
 import Payal23 from './assets/Payal23.png';
-import Payal24 from './assets/Payal24.png';
 import Payal25 from './assets/Payal25.png';
 import Payal26 from './assets/Payal26.PNG';
 import Payal27 from './assets/Payal27.PNG';
@@ -29,9 +26,7 @@ import Payal32 from './assets/Payal32.PNG';
 import Payal33 from './assets/Payal33.PNG';
 import Payal35 from './assets/Payal35.PNG';
 import Payal36 from './assets/Payal36.PNG';
-import Payal37 from './assets/Payal37.PNG';
 import Payal38 from './assets/Payal38.PNG';
-import Payal39 from './assets/payal39.PNG';
 import Payal40 from './assets/payal40.PNG';
 import Payal41 from './assets/payal41.PNG';
 import Payal42 from './assets/payal42.PNG';
@@ -530,13 +525,9 @@ const App = () => {
     Instagram (@bonggirlpayal)
   </a>
 
-  <a 
-    href="#" 
-    onMouseEnter={() => setIsCursorHovering(true)}
-    onMouseLeave={() => setIsCursorHovering(false)}
-  >
-    YouTube
-  </a>
+ <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+  YouTube
+</a>
 </div>
           <div className="footer-copyright">
             <p>&copy; 2024 Payal  Bakshi. All rights reserved.</p>
