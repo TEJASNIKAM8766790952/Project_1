@@ -3,45 +3,30 @@ import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import Payal1 from './assets/Payal1.PNG';
 import Payal2 from './assets/Payal2.PNG';
-import Payal3 from './assets/Payal3.PNG';
-import Payal4 from './assets/Payal4.PNG';
 import Payal5 from './assets/Payal5.PNG';
 import Payal6 from './assets/Payal6.PNG';
 import Payal7 from './assets/Payal7.PNG';
-import Payal9 from './assets/Payal9.PNG';
-import Payal10 from './assets/Payal10.PNG';
 import Payal11 from './assets/Payal11.PNG';
-import Payal12 from './assets/Payal12.PNG';
 import Payal14 from './assets/Payal14.PNG';
 import Payal16 from './assets/Payal16.PNG';
-import Payal17 from './assets/Payal17.PNG';
-import Payal18 from './assets/Payal18.png';
-import Payal23 from './assets/Payal23.png';
 import Payal25 from './assets/Payal25.png';
 import Payal26 from './assets/Payal26.PNG';
 import Payal27 from './assets/Payal27.PNG';
 import Payal28 from './assets/Payal28.PNG';
-import Payal29 from './assets/Payal29.PNG';
 import Payal32 from './assets/Payal32.PNG';
 import Payal33 from './assets/Payal33.PNG';
 import Payal35 from './assets/Payal35.PNG';
-import Payal36 from './assets/Payal36.PNG';
 import Payal38 from './assets/Payal38.PNG';
 import Payal40 from './assets/payal40.PNG';
 import Payal41 from './assets/payal41.PNG';
 import Payal42 from './assets/payal42.PNG';
-import Payal43 from './assets/payal43.PNG';
 import Payal44 from './assets/payal44.PNG';
-import Payal45 from './assets/payal45.PNG';
-import Payal46 from './assets/payal46.PNG';
-import Payal47 from './assets/payal47.PNG';
 import Payal48 from './assets/payal48.PNG';
-import Payal49 from './assets/payal49.PNG';
 import Payal50 from './assets/payal50.PNG';
 import Payal51 from './assets/payal51.PNG';
 import Payal52 from './assets/payal52.PNG';
 import Payal53 from './assets/payal53.PNG';
-import Payal55 from './assets/payal55.PNG';
+
 
 
 const App = () => {
@@ -68,45 +53,29 @@ const App = () => {
  const portfolioItems = [
   { id: 1, category: 'fashion', title: 'Look 1', image: Payal1, description: 'Fashion shoot' },
   { id: 2, category: 'editorial', title: 'Look 2', image: Payal2, description: 'Editorial shoot' },
-  { id: 3, category: 'beauty', title: 'Look 3', image: Payal3, description: 'Beauty shoot' },
-  { id: 4, category: 'fashion', title: 'Look 4', image: Payal4, description: 'Fashion shoot' },
   { id: 5, category: 'editorial', title: 'Look 5', image: Payal5, description: 'Editorial shoot' },
   { id: 6, category: 'beauty', title: 'Look 6', image: Payal6, description: 'Beauty shoot' },
   { id: 7, category: 'fashion', title: 'Look 7', image: Payal7, description: 'Fashion shoot' },
-  { id: 9, category: 'beauty', title: 'Look 9', image: Payal9, description: 'Beauty shoot' },
-  { id: 10, category: 'fashion', title: 'Look 10', image: Payal10, description: 'Fashion shoot' },
   { id: 11, category: 'editorial', title: 'Look 11', image: Payal11, description: 'Editorial shoot' },
-  { id: 12, category: 'beauty', title: 'Look 12', image: Payal12, description: 'Beauty shoot' },
   { id: 14, category: 'editorial', title: 'Look 14', image: Payal14, description: 'Editorial shoot' },
   { id: 16, category: 'fashion', title: 'Look 16', image: Payal16, description: 'Fashion shoot' },
-  { id: 17, category: 'editorial', title: 'Look 17', image: Payal17, description: 'Editorial shoot' },
-  { id: 18, category: 'beauty', title: 'Look 18', image: Payal18, description: 'Beauty shoot' },
-  { id: 23, category: 'editorial', title: 'Look 23', image: Payal23, description: 'Editorial shoot' },
   { id: 25, category: 'fashion', title: 'Look 25', image: Payal25, description: 'Fashion shoot' },
   { id: 26, category: 'editorial', title: 'Look 26', image: Payal26, description: 'Editorial shoot' },
   { id: 27, category: 'beauty', title: 'Look 27', image: Payal27, description: 'Beauty shoot' },
   { id: 28, category: 'fashion', title: 'Look 28', image: Payal28, description: 'Fashion shoot' },
-  { id: 29, category: 'editorial', title: 'Look 29', image: Payal29, description: 'Editorial shoot' },
   { id: 32, category: 'editorial', title: 'Look 32', image: Payal32, description: 'Editorial shoot' },
   { id: 33, category: 'beauty', title: 'Look 33', image: Payal33, description: 'Beauty shoot' },
   { id: 35, category: 'editorial', title: 'Look 35', image: Payal35, description: 'Editorial shoot' },
-  { id: 36, category: 'beauty', title: 'Look 36', image: Payal36, description: 'Beauty shoot' },
   { id: 38, category: 'editorial', title: 'Look 38', image: Payal38, description: 'Editorial shoot' },
   { id: 40, category: 'fashion', title: 'Look 40', image: Payal40, description: 'Fashion shoot' },
   { id: 41, category: 'editorial', title: 'Look 41', image: Payal41, description: 'Editorial shoot' },
   { id: 42, category: 'beauty', title: 'Look 42', image: Payal42, description: 'Beauty shoot' },
-  { id: 43, category: 'fashion', title: 'Look 43', image: Payal43, description: 'Fashion shoot' },
   { id: 44, category: 'editorial', title: 'Look 44', image: Payal44, description: 'Editorial shoot' },
-  { id: 45, category: 'beauty', title: 'Look 45', image: Payal45, description: 'Beauty shoot' },
-  { id: 46, category: 'fashion', title: 'Look 46', image: Payal46, description: 'Fashion shoot' },
-  { id: 47, category: 'editorial', title: 'Look 47', image: Payal47, description: 'Editorial shoot' },
   { id: 48, category: 'beauty', title: 'Look 48', image: Payal48, description: 'Beauty shoot' },
-  { id: 49, category: 'fashion', title: 'Look 49', image: Payal49, description: 'Fashion shoot' },
   { id: 50, category: 'editorial', title: 'Look 50', image: Payal50, description: 'Editorial shoot' },
   { id: 51, category: 'beauty', title: 'Look 51', image: Payal51, description: 'Beauty shoot' },
   { id: 52, category: 'fashion', title: 'Look 52', image: Payal52, description: 'Fashion shoot' },
   { id: 53, category: 'editorial', title: 'Look 53', image: Payal53, description: 'Editorial shoot' },
-  { id: 55, category: 'fashion', title: 'Look 55', image: Payal55, description: 'Fashion shoot' },
 ];
   const [filter, setFilter] = useState('all');
   const [selectedItem, setSelectedItem] = useState(null);
@@ -270,16 +239,16 @@ const App = () => {
           
           <div className="hero-stats animate-fade-in">
             <div className="stat">
-              <h3>15+</h3>
+              <h3>4+</h3>
               <p>Years Experience</p>
             </div>
             <div className="stat">
-              <h3>50+</h3>
+              <h3>10+</h3>
               <p>Fashion Shows</p>
             </div>
             <div className="stat">
-              <h3>30+</h3>
-              <p>Magazine Covers</p>
+              <h3>50+</h3>
+              <p>Brand promotion</p>
             </div>
           </div>
         </div>
@@ -314,7 +283,7 @@ const App = () => {
           <div className="detail-item">
             <h4>Background</h4>
             <p>
-              Born in Paris, raised in Milan, I've been immersed in the fashion world from a young age. My journey began at 16 when I was discovered at a local fashion show.
+              Born in Paris, raised in Milan, I've been immersed in the fashion world from a young age. My journey began at 18 when I was discovered at a local fashion show.
             </p>
           </div>
           <div className="detail-item">
